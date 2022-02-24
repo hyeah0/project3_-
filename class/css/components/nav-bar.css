@@ -1,0 +1,13 @@
+.nav {
+  width: 100%;
+  background-color: rgba(207, 207, 207, 0.637);
+  padding: 20px 40px;
+  position: fixed;
+  bottom: 0;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

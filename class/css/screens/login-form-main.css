@@ -1,0 +1,42 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 20px;
+}
+
+.login-form input {
+  padding: 10px 0px;
+  border: none;
+  border-bottom: 1px solid gray;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: var(--yellow);
+}
+
+.login-form input:nth-child(2),
+.login-form button:nth-child(4) {
+  margin-bottom: 20px;
+}
+
+.login-form button {
+  border: none;
+  padding: 10px 0;
+  margin: 5px 0px;
+  border-radius: 2px;
+  font-size: 15px;
+  background-color: var(--yellow);
+  cursor: pointer;
+}
+
+.login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  /* inherit 부모요소 색상 상속 */
+  font-size: 12px;
+}
