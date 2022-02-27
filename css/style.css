@@ -6,14 +6,33 @@
 @import url(components/nav-bar.css);
 @import url(components/screen-header.css);
 @import url(components/user-component.css);
+@import url(components/badge.css);
 
 /* screens */
 @import url(screens/welcome-header.css);
 @import url(screens/login-form-main.css);
 @import url(screens/display-link.css);
-
+@import url(screens/find-icons.css);
 * {
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main-screen {
+  margin: var(--horizontal-space);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+
+a:hover {
+  font-size: 1.1em;
+}
+
+a:focus {
+  color: rgb(255, 58, 91);
 }

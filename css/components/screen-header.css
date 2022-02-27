@@ -1,5 +1,6 @@
 .header {
   margin: var(--horizontal-space);
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,12 +11,21 @@
   font-size: 28px;
 }
 
+.header__icon__new {
+  position: relative;
+}
+
 .header__icon button {
   border: none;
   color: rgb(43, 43, 43);
   background-color: transparent;
-
   font-size: 23px;
 
   cursor: pointer;
+}
+
+.mini-badge {
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }

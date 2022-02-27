@@ -5,14 +5,10 @@
   align-items: center;
 }
 
-.user-component__column {
-  margin: var(--horizontal-space);
-}
-
 .user-component__image {
   background-color: pink;
   border-radius: 15%;
-  margin: var(--horizontal-space);
+  margin-right: 10px;
 }
 
 .user-component__image--xl {
@@ -41,12 +37,15 @@
   color: gray;
 }
 
+.friens-screen__channel {
+  margin: 20px 0px 20px 0px;
+  border-top: var(--border);
+}
+
 .friens-screen__channel-header {
-  margin: var(--horizontal-space);
   padding-top: 10px;
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid rgba(128, 128, 128, 0.322);
 }
 
 .user-component__chat {
@@ -55,17 +54,6 @@
   padding: 0px;
 }
 
-.user-component__chat div {
-  width: 20px;
-  height: 20px;
-  background-color: red;
-  color: white;
-
-  border-radius: 50%;
-  text-align: center;
-  font-weight: 600;
-}
-
-.user-component__column span {
+.user-component__time {
   padding-bottom: 5px;
 }
