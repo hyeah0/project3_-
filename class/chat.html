@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kakao clone</title>
+    <title>chat</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -25,57 +25,30 @@
             <!--todo : lightning icon -->
         </div>
     </div>
+
     <header class="header">
-        <h1 class="header__text">Friends</h1>
+        <h1 class="header__text">Chats</h1>
         <div class="header__icon">
             <button><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
+            <button><i class="fa-solid fa-comments"></i></button>
             <button><i class="fa-solid fa-music fa-lg"></i></button>
             <button><i class="fa-solid fa-gear fa-lg"></i></button>
         </div>
     </header>
-   
-    <a id="friens-display-link" href="#">
-        <i class="fa-solid fa-circle-info"></i>    
-        Friends' Names Display
-        <i class="fa-solid fa-angle-right"></i>
-    </a>
 
-    <main class="friens-screen">
-
-        <div class="user-component">
-            <div class="user-component__column">
-                <img class="user-component__image user-component__image--xl" src="./css/assets/user.png" alt="user">
-                <div class="user-component__text user-component__text--xl">
-                    <h4>Kakao</h4>
-                    <!-- <p>description</p> -->
-                </div>
-            </div>
-            <div class="user-component__column">
-                
+    <div class="user-component">
+        <div class="user-component__column">
+            <img class="user-component__image user-component__image--sm" src="./css/assets/user.png" alt="user">
+            <div class="user-component__text user-component__text--sm">
+                <h4>Channel</h4>
+                <p>description</p>
             </div>
         </div>
-
-        <div class="friens-screen__channel">
-            <div class="friens-screen__channel-header">
-                <span>Channel</span>
-                <i class="fa-solid fa-angle-up"></i>
-            </div>
+        <div class="user-component__column user-component__chat">
+            <span>21:22</span>
+            <div>1</div>
         </div>
-
-        <div class="user-component">
-            <div class="user-component__column">
-                <img class="user-component__image user-component__image--sm" src="./css/assets/user.png" alt="user">
-                <div class="user-component__text user-component__text--sm">
-                    <h4>Channel</h4>
-                </div>
-            </div>
-            <div class="user-component__column">
-                <span>2</span>
-                <i class="fa-solid fa-angle-right"></i>
-            </div>
-        </div>
-    </main>
-
+    </div>
 
     <nav class="nav">
         <ul class="nav__list">
@@ -103,7 +76,6 @@
             </li>
         </ul>
     </nav>
-
 
     <script src="https://kit.fontawesome.com/f80fa45c5b.js" crossorigin="anonymous"></script>
 </body>

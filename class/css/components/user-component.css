@@ -1,0 +1,71 @@
+.user-component,
+.user-component__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-component__column {
+  margin: var(--horizontal-space);
+}
+
+.user-component__image {
+  background-color: pink;
+  border-radius: 15%;
+  margin: var(--horizontal-space);
+}
+
+.user-component__image--xl {
+  width: 55px;
+  height: 55px;
+}
+
+.user-component__text--xl {
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.user-component__image--sm {
+  width: 35px;
+  height: 35px;
+}
+
+.user-component__text--sm {
+  /* font-weight: bolder; */
+  font-size: 20px;
+}
+
+.user-component__text--sm p {
+  padding-top: 5px;
+  font-size: 15px;
+  color: gray;
+}
+
+.friens-screen__channel-header {
+  margin: var(--horizontal-space);
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(128, 128, 128, 0.322);
+}
+
+.user-component__chat {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.user-component__chat div {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  color: white;
+
+  border-radius: 50%;
+  text-align: center;
+  font-weight: 600;
+}
+
+.user-component__column span {
+  padding-bottom: 5px;
+}

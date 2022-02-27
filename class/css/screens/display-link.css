@@ -1,0 +1,13 @@
+#friens-display-link {
+  padding: 10px;
+
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(43, 43, 43);
+  background-color: rgba(128, 128, 128, 0.233);
+}
+
+#friens-display-link i {
+  color: rgba(43, 43, 43, 0.514);
+}
