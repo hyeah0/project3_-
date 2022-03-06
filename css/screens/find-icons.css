@@ -88,3 +88,23 @@
   background-color: rgba(0, 0, 0, 0.356);
   border-radius: 20px;
 }
+
+.open-chat__channel__photo .fa-heart:hover {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: red;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}

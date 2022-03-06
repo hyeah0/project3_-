@@ -15,6 +15,7 @@
 .user-component__image--xl {
   width: 55px;
   height: 55px;
+  /* padding: 5px; */
 }
 
 .user-component__text--xl {
@@ -23,8 +24,9 @@
 }
 
 .user-component__image--sm {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
+  /* padding: 5px; */
 }
 
 .user-component__text--sm {
@@ -36,17 +38,6 @@
   padding-top: 5px;
   font-size: 15px;
   color: gray;
-}
-
-.friens-screen__channel {
-  margin: 20px 0px 20px 0px;
-  border-top: var(--border);
-}
-
-.friens-screen__channel-header {
-  padding-top: 10px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .user-component__chat {

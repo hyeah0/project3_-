@@ -33,3 +33,17 @@
 .middle-header {
   margin-bottom: 15px;
 }
+
+.header__icon .fa-gear:hover {
+  will-change: transform;
+  animation: rotateGear 1s linear;
+}
+
+@keyframes rotateGear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: scale(2) rotatez(360deg);
+  }
+}

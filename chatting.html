@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>settings</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+            <!--todo : wifi icon -->
+        </div>    
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full"></i>
+            <i class="fa-solid fa-bolt-lightning"></i>
+            <!--todo : battery icon -->
+            <!--todo : lightning icon -->
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+        <button><a href="chat.html"><i class="fa-solid fa-angle-left fa-2x"></i></a></button>
+        </div>
+        <div class="alt-header__column">
+            <span class="header__text">선인장</span>
+        </div>
+        <div class="alt-header__column">
+            <button><i class="fa-solid fa-magnifying-glass fa-2x"></i></button>
+            <button><i class="fa-solid fa-bars fa-2x"></i></button>
+        </div> 
+        <!-- <div class="alt-header__column">
+            <button>
+                <a href="chat.html">
+                    <i class="fa-solid fa-angle-left fa-2x"></i>
+                </a>
+            </button>
+            <span class="header__text">Settings</span>
+            <div>
+                <button><i class="fa-solid fa-magnifying-glass fa-2x"></i></button>
+                <button><i class="fa-solid fa-bars fa-2x"></i></button>   
+            </div>      
+        </div> -->
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Sunday, March 06, 2022
+        </div>
+        <div class="message-row">
+            <img class="message-row__img" src="https://cdn.pixabay.com/photo/2016/11/20/08/03/cactus-1842095_640.jpg" alt="user">
+            <div class="message-row__content">
+                <span class="message__author">선인장</span>
+                <div class="message__info">
+                    <span class="message__bubble">안녕 난 선인장이야</span>
+                    <span class="message__time">21:37</span>
+                </div>     
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content ">
+                <div class="message__info"> 
+                    <span class="message__bubble">안녕!</span>  
+                    <span class="message__time">21:37</span>
+                </div>
+            </div>
+        </div>    
+    </main>
+    <form action="" class="reply">
+        <div class="reply__column">
+            <a href="#"><i class="fa-regular fa-square-plus"></i></a>
+        </div>
+        <div class="reply__column">
+            <input type="text">
+            <div class="reply__column__button">
+                <a href="#"><i class="fa-solid fa-face-smile"></i></a>
+                <button><i class="fa-solid fa-up-long"></i></button>
+            </div>
+        </div>
+    </form>
+   
+    <script src="https://kit.fontawesome.com/f80fa45c5b.js" crossorigin="anonymous"></script>
+</body>
+</html>

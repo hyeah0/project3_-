@@ -14,9 +14,11 @@
 @import url(screens/welcome-header.css);
 @import url(screens/login-form-main.css);
 @import url(screens/display-link.css);
+@import url(screens/friends.css);
 @import url(screens/find-icons.css);
 @import url(screens/more.css);
 @import url(screens/setting.css);
+@import url(screens/chatting.css);
 
 * {
   box-sizing: border-box;
@@ -38,6 +40,7 @@ a {
   font-size: 1.1em;
 } */
 
-a:focus {
+a:focus,
+button:focus {
   color: rgb(255, 58, 91);
 }
