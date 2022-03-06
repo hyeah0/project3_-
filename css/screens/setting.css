@@ -1,0 +1,28 @@
+.settings__icon {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 20px 0px;
+}
+
+.settings__icon span:first-child {
+  margin-left: 10px;
+}
+
+.settings__icon__description {
+  opacity: 0.7;
+}
+
+.main-setting__icon {
+  border-bottom: var(--border);
+}
+
+.second-setting__icon {
+  height: 45vh;
+  overflow: scroll;
+  /* scrollbar-width: none; */
+}
+
+.second-setting__icon::-webkit-scrollbar {
+  display: none;
+}

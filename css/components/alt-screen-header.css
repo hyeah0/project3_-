@@ -1,0 +1,18 @@
+.alt-header {
+  margin: 20px;
+}
+
+.alt-header__column {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.alt-header__column button {
+  border: none;
+  color: rgb(43, 43, 43);
+  background-color: transparent;
+  /* font-size: 20px; */
+
+  cursor: pointer;
+}
